@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".CreateRoomActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="155dp"
+        app:layout_constraintBottom_toTopOf="@+id/fourgrid"
+        app:layout_constraintTop_toTopOf="@+id/fourgrid">
+
+        <Button
+            android:id="@+id/twogrid"
+            android:layout_width="76dp"
+            android:layout_height="48dp"
+            android:background="@drawable/loginbuton"
+            android:text="2*2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.047"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.835" />
+
+        <Button
+            android:id="@+id/fourgrid"
+            android:layout_width="77dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="88dp"
+            android:background="@drawable/loginbuton"
+            android:text="4*4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/sixgrid"
+            android:layout_width="71dp"
+            android:layout_height="48dp"
+            android:background="@drawable/loginbuton"
+            android:text="6*6"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.952"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.835" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <GridView
+        android:id="@+id/grid"
+        android:layout_width="wrap_content"
+        android:layout_height="450dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="10dp"
+        android:horizontalSpacing="15dp"
+        android:stretchMode="columnWidth"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</LinearLayout>

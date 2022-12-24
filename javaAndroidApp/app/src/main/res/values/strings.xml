@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="string_todo" />
+    <string name="SignUp">SignUp</string>
+    <string name="grid">grid</string>
+    <string name="E_mail">E-mail</string>
+    <string name="Password">Password</string>
+    <string name="Login">Login</string>
+    <string name="TODO">TODO</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="singleplayer">singleplayer</string>
+    <string name="multiplayer">multiplayer</string>
+    <string name="ikibtn">ikibtn</string>
+    <string name="dortbtn">dortbrn</string>
+    <string name="altıbtn">altıbtn</string>
+    <string name="altibtn">altibtn</string>
+    <string name="iki">2*2</string>
+    <string name="dort">4*4</string>
+    <string name="alti">6*6</string>
+    <string name="Score">TextView</string>
+    <string name="score">Score</string>
+    <string name="scorex">Score :</string>
+    <string name="_0">0</string>
+    <string name="time">time</string>
+    <string name="times">times</string>
+    <string name="time_">Time :</string>
+    <string name="imagwlogin">imagwlogin</string>
+    <string name="sound">sound</string>
+    <string name="score__">Score :</string>
+    <string name="time__">Time</string>
+    <string name="_0_">0</string>
+    <string name="createroom">createroom</string>
+    <string name="create_room">Create Room</string>
+    <string name="room_name">Room Name</string>
+    <string name="___0">0</string>
+    <string name="host_score">Host Score :</string>
+    <string name="timemulti">Time</string>
+    <string name="____0">0</string>
+    <string name="quest_score">Quest Score :</string>
+    <string name="_____0">0</string>
+    <string name="dortfrid">dortgrid</string>
+    <string name="altigrid">altigrid</string>
+    <string name="ikigrid">ikigrid</string>
+    <string name="_6_6">6*6</string>
+    <string name="_4_4">4*4</string>
+    <string name="todo">TODO</string>
+    <string name="_2_2">2*2</string>
+
+    <string name="singlestart">singlestart</string>
+    <string name="floating">floating</string>
+
+
+</resources>

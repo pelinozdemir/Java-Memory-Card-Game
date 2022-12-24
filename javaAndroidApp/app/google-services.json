@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "480372595708",
+    "firebase_url": "https://memorymaster-d4422-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "memorymaster-d4422",
+    "storage_bucket": "memorymaster-d4422.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:480372595708:android:50955d1da9df7ed147b079",
+        "android_client_info": {
+          "package_name": "com.app.memorymaster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "480372595708-8gd1vb9lt5nb0bgbk3ro22eumoruni8i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.memorymaster",
+            "certificate_hash": "2555c85e21338beff64b17c9a6be3f482fca7847"
+          }
+        },
+        {
+          "client_id": "480372595708-d70i2phqte06ke9eda8k5cdjg9e891mp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHh3Hmwpqxfp6Xi1BoSdHgnuC7_BcxPT0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "480372595708-d70i2phqte06ke9eda8k5cdjg9e891mp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
